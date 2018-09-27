@@ -1,0 +1,11 @@
+{
+	"manifest_version": 2,
+	"name": "Hide trending section",
+	"description": "Hide trending section",
+	"version": "1.0.0",
+	"icons": {},
+	"content_scripts" : [{
+        "matches" : ["https://www.youtube.com/*"],
+        "js" : ["hidetrending.js"]
+    }]
+}
